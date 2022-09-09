@@ -1,7 +1,7 @@
 /*****************************************************
  Author: Ernest Ramazani 
  Date: September 8th, 2022
- IUPUI // CSCI N220 Fall 2022
+ IUPUI // NEWM N220 Fall 2022
  ****************************************************/
 
 /******************************************************************************************************
@@ -21,7 +21,7 @@ will need to decrease its position by 1 to create a form of collision
  CODES
  *********************/
 
- 
+
 // Defining variables for poositions, speed and direction
 var xPos=0; 
 var yPos = 0; 
