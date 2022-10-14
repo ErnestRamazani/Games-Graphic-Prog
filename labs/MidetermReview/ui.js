@@ -25,7 +25,7 @@ function myFunction(myId){
     var myColor = document.getElementById("buttons").getElementsByTagName("div"); 
     var myText = document.getElementById('text'); 
 
-    //Loop to refresh the page each time there is another click 
+    //Loop to refresh element of the page each time there is another click 
     for (var i = 0; i<myColor.length; i++){
 
         //reseting the background color to Null and the font to normal 
@@ -34,7 +34,7 @@ function myFunction(myId){
             
     }
 
-        //highlighting the backgroynd and makingthe text bold
+        //highlighting the background and makingthe text bold
         document.getElementById(myId).style.backgroundColor = 'beige'; 
         document.getElementById(myId).style.fontWeight = 'bold'; 
         
