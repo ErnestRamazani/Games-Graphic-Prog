@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+</head>
+<style>
+#square{
+    width: 200px;
+    height:200px; 
+    background-color: rgb(0, 0, 0);
+    float:left; 
+    margin:5px; 
+}
+</style>
+<body>
+    
+    <div id="square"></div>
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="myColor">Blue</div>
+    <div >Red</div>
+    <button id="r1" class="myColor" data-color=1 onclick="addRedColor(this)">+1</button>
+    <button id="r5" class="myColor" data-color=5 onclick="addRedColor(this)">+5</button>
+    <button id="r10" class="myColor" data-color=10 onclick="addRedColor(this)">+10</button><br>
+    <div>Green</div>
+    <button id="g1" class="myColor" data-color=1 onclick="addGreenColor(this)">+1</button>
+    <button id="g5" class="myColor" data-color=5 onclick="addGreenColor(this)">+5</button>
+    <button id="g10" class="myColor" data-color=10 onclick="addGreenColor(this)">+10</button><br>
+    <div>Blue</div>
+    <button id="b1" class="myColor" data-color=1 onclick="addBlueColor(this)">+1</button>
+    <button id="b5" class="myColor" data-color=5 onclick="addBlueColor(this)">+5</button>
+    <button id="b10" class="myColor" data-color=10 onclick="addBlueColor(this)">+10</button>
+
+    <script src="cm.js"></script>
+</body>
+</html>
